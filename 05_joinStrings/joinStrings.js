@@ -8,6 +8,17 @@
 */
 
 // Add your code right below, good luck!
+let firstName = "Carlos" 
+let lastName ="Stevenson"
+let thisYear= 1965 ; 
+let birthYear = 1947 ; 
+let greeting ; 
+greeting ="Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old."; 
+console.log (greeting) ; 
+let age = thisYear - birthYear ; 
+let fullName = firstName.concat(" "+lastName) ;
+greeting ="Hello! My name is " + fullName + " and I am " + age + " years old."; 
+console.log (greeting) ; 
 
 
 
